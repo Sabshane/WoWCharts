@@ -1,0 +1,19 @@
+{
+    "name": "wow_api_experimentation",
+    "version": "0.0.1",
+    "author": "Sabshane",
+    "type": "module",
+    "scripts": {
+        "dev": "webpack --config webpack.config.js"
+    },
+    "dependencies": {
+        "axios": "^1.7.2",
+        "dotenv": "^16.4.5",
+        "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+        "@webpack-cli/generators": "^3.0.7",
+        "webpack": "^5.91.0",
+        "webpack-cli": "^5.1.4"
+    }
+}

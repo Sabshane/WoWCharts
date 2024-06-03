@@ -3,4 +3,4 @@ import {getCreature,searchCreature,getCreatureIndex} from "./Creature/Creature.j
 
 
 
-getCreatureIndex()
+
