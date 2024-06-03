@@ -1,6 +1,6 @@
 # Blizzard API Creature Data Fetcher
 
-This repository provides a set of Node.js scripts to fetch creature data from the Blizzard API. The project handles OAuth token management, querying for creature data, and searching for specific creatures by name.
+This repository provides a set of Node.js scripts to fetch creature data from the Blizzard API. The project handles OAuth token management, querying for creature data, and searching for specific creatures by name. In the future I would like to make it a data vizualization tool.
 
 ## Table of Contents
 
@@ -23,8 +23,8 @@ This repository provides a set of Node.js scripts to fetch creature data from th
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/blizzard-api-creature-fetcher.git
-    cd blizzard-api-creature-fetcher
+    git clone https://github.com/sabshane/WoWCharts.git
+    cd WoWCharts
     ```
 
 2. Install the dependencies:
@@ -38,7 +38,7 @@ This repository provides a set of Node.js scripts to fetch creature data from th
     CLIENT_SECRET=your_blizzard_client_secret
     REGION=your_region
     ```
-
+You'll need to get your client ID and Secret from here : https://develop.battle.net/documentation/guides/getting-started
 ## Configuration
 
 Make sure to replace `your_blizzard_client_id`, `your_blizzard_client_secret`, and `your_region` with your actual Blizzard API client ID, client secret, and the desired region (e.g., `eu` or `us`).
